@@ -24,8 +24,8 @@ run label-studio
    - Create new project and name it ```Tagging```
    - Press import(blue button) and upload the JSON file given to you
    - GOTO ```SETTINGS->Labelng Interface->Code``` and copy the Template file in the git there and press save. 
-11. Click on one image or the <> tag. 
-12. Now tag each box with the right entity.
+7. Click on one image or the <> tag. 
+8. Now tag each box with the right entity.
 
 
 The first 1-2 images will seem super difficult. But after that it will be super simple
