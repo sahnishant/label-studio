@@ -1,0 +1,113 @@
+<View>
+  <Image name="image" value="$ocr" />
+  <Labels name="label" toName="image">
+
+    <!-- Seller Cluster -->
+    <Label value="Seller_Name" background="#FFA39E" />
+    <Label value="Seller_Address" background="#FFA378" />
+    <Label value="Seller_Pin_Code" background="#FFC090" />
+    <Label value="Seller Mobile Number" background="#AD8B25" />
+    <Label value="Seller_GST_Number" background="#FFA355" />
+    <Label value="Seller_Logo" background="#5CDBD3" />
+    <Label value="Seller_Tagline" background="#096DD9" />
+    <Label value="Seller_Address_Line1" background="#ADC6FF" />
+    <Label value="Seller_Address_Line2" background="#9254DE" />
+    <Label value="Seller_Address_Line3" background="#F759AB" />
+    <Label value="Seller_Address_Line4" background="#FFA399" />
+    <Label value="Seller_state" background="#D4380D" />
+
+    <!-- Buyer Cluster -->
+    <Label value="Buyer_Name" background="#D4380D" />
+    <Label value="Buyer_Address" background="#FFC069" />
+    <Label value="Buyer_Pin_Code" background="#AD8B00" />
+    <Label value="Buyer_Mobile_Number" background="#FFA39E" />
+    <Label value="Buyer_GST_Number" background="#D43856" />
+    <Label value="Buyer_Address_Line1" background="#ADC6FF" />
+    <Label value="Buyer_Address_Line2" background="#9254DE" />
+    <Label value="Buyer_Address_Line3" background="#F759AB" />
+    <Label value="Buyer_Address_Line4" background="#FFA399" />
+    <Label value="Buyer_state" background="#D43877" />
+
+    <!-- Invoice Cluster -->
+    <Label value="Invoice_number" background="#CCC069" />
+    <Label value="Invoice_date" background="#CCC089" />
+
+    <!-- Order Cluster -->
+    <Label value="Order_Date_Tag" background="#AD8B00" />
+    <Label value="Order_Date" background="#AD8B29" />
+    <Label value="Dispatch_Date_Tag" background="#D3F261" />
+    <Label value="Dispatch_Date" background="#D3F200" />
+
+    <!-- Ewaybill Cluster -->
+    <Label value="Ewaybill_Number_Tag" background="#389E0D" />
+    <Label value="Ewaybill_Number" background="#389E56" />
+
+    <!-- IRN Cluster -->
+    <Label value="IRN_Tag" background="#FFA300" />
+    <Label value="IRN_Value" background="#D4380D" />
+    <Label value="IRN_AckNo_Tag" background="#FFC069" />
+    <Label value="IRN_AckNo_Value" background="#AD8B25" />
+    <Label value="Ack_Date_Tag" background="#D3F261" />
+    <Label value="Ack_Date" background="#389E0D" />
+
+    <!-- CIN Cluster -->
+    <Label value="CIN_Tag" background="#FFC069" />
+    <Label value="CIN_No" background="#AD8B00" />
+
+    <!-- Payment Cluster -->
+    <Label value="Payment_mode_Tag" background="#5CDBD3" />
+    <Label value="Transaction_id_Tag" background="#096DD9" />
+    <Label value="Transaction_id" background="#096D56" />
+
+    <!-- Item Cluster -->
+    <Label value="Item_Row_Tag" background="#FFC069" />
+    <Label value="Item_Row" background="#FFC055" />
+    <Label value="Item_no_Tag" background="#9254DE" />
+    <Label value="Item_No" background="#D43856" />
+    <Label value="Item_Name_Tag" background="#FFC055" />
+    <Label value="Item_Name" background="#FFC000" />
+    <Label value="Item_Description_Tag" background="#FFC000" />
+    <Label value="Item_Description" background="#FFC055" />
+    <Label value="Item_HSN_Tag" background="#AD8B25" />
+    <Label value="Item_HSN" background="#AD8B00" />
+    <Label value="Item_GST_Percent_Tag" background="#D3F261" />
+    <Label value="Item_GST_Percent" background="#D3F200" />
+    <Label value="Item_Quantity_Tag" background="#389E0D" />
+    <Label value="Item_Quantity" background="#389E56" />
+    <Label value="Item Price_Tag" background="#5CDBD3" />
+    <Label value="Item Price" background="#096DD9" />
+    <Label value="Item_value_Tag" background="#096D56" />
+    <Label value="Item_value" background="#096D00" />
+    <Label value="Item_Discount_Tag" background="#ADC6FF" />
+    <Label value="Item_Discount" background="#ADC600" />
+    <Label value="Item_Taxable_Value_Tag" background="#FFA39E" />
+    <Label value="Item_Taxable_Value" background="#FFA355" />
+    <Label value="Item_CGST_Tag" background="#D4380D" />
+    <Label value="Item_CGST" background="#D43856" />
+    <Label value="Item_SGST_Tag" background="#FFC069" />
+    <Label value="Item_SGST" background="#FFC000" />
+    <Label value="Item IGST_Tag" background="#AD8B25" />
+    <Label value="Item IGST" background="#AD8B29" />
+    <Label value="Item_Value_Tag" background="#FFA300" />
+    <Label value="Item_Value" background="#FFA399" />
+
+    <!-- Ledger Cluster -->
+    <Label value="Ledger_Name" background="#D4380D" />
+    <Label value="Ledger_Value" background="#FFC069" />
+
+    <!-- Total Cluster -->
+    <Label value="Total_Taxable_Amount_Tag" background="#5CDBD3" />
+    <Label value="Total_Taxable_Amount" background="#096DD9" />
+    <Label value="Total_GST_Tag" background="#ADC6FF" />
+    <Label value="Total_GST" background="#9254DE" />
+    <Label value="Total_Discount_Tag" background="#D3F261" />
+    <Label value="Total_Discount" background="#5CDBD3" />
+    <Label value="Total_Payable_Amount_Tag" background="#FFA39E" />
+    <Label value="Total_Payable_Amount" background="#096DD9" />
+
+    <!-- Other Clusters (Add more as needed) -->
+</Labels>
+  <Rectangle name="bbox" toName="image" strokeWidth="3"/>
+  <Polygon name="poly" toName="image" strokeWidth="3"/>
+  <TextArea name="transcription" toName="image" editable="true" perRegion="true" required="true" maxSubmissions="1" rows="5" placeholder="Recognized Text" displayMode="region-list"/>
+</View>
