@@ -19,13 +19,14 @@ python server.py
 ```
 run label-studio
 ``` 
-   Label studio should open in the browswer. URL - ```http://localhost:8080```
-6. Create login and password on label studio and Login.
-   - Create new project and name it ```Tagging```
-   - Press import(blue button) and upload the JSON file given to you
-   - GOTO ```SETTINGS->Labelng Interface->Code``` and copy the Template file in the git there and press save. 
-7. Click on one image or the <> tag. 
-8. Now tag each box with the right entity.
+   Label studio should open in the browswer. URL ```http://localhost:8080```
 
+6. Create login and password on label studio
+   - Create new project. Name it ```Tagging```
+   - Press import - upload the JSON file provided
+   - GOTO ```SETTINGS->Labelng Interface->Code``` -> copy the Template file  git -> press save. 
+7. Goto Project again Click on one of the images. 
+8. Now tag each box with the right entity.
+9. Once you have processed a batch of 20-30 entities, export in JSON format and Export in JSON-Min format and save the two files in the git repository. 
 
 The first 1-2 images will seem super difficult. But after that it will be super simple
