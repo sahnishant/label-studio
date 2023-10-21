@@ -7,7 +7,8 @@ python -m pip install label-studio
 ```
 3. Now create a folder "Project" and in it 
    - Create the file server.py from github
-   - Copy all images given to you 
+   - Copy all images given to you
+   - This can be done by downloading the git repo as a zip file
 4. Open command prompt,
    - goto Project folder 
    - type ```python server.py``` and press enter.
