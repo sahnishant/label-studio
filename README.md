@@ -16,9 +16,9 @@ python -m pip install label-studio
 python server.py
 ```
 5. Open another command prompt or terminal
-   - type ```run label-studio``` and press enter.
+   - type ```label-studio``` and press enter.
 ```
-run label-studio
+label-studio
 ``` 
    Label studio should open in the browswer. URL ```http://localhost:8080```
 
